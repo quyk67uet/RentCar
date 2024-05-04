@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-redux": "^8.1.3",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "reactstrap": "^9.2.2",
+    "redux": "^4.2.1",
+    "remixicon": "^3.2.0"
+  },
+  "name": "6466",
+  "description": "This repository contains the source code and documentation for a web application designed to facilitate car rental services. The application allows users to browse, book, and manage their car rental reservations.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
