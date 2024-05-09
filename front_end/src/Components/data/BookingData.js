@@ -6,7 +6,7 @@ import { useEffect } from "react";
 function BookingData() {
   const { bookingData, setBookingData } = useContext(BookingContext);
   const fetchData = () => {
-    axios.post('http://localhost:8082/booking', {key: "get Booking Data"})
+    axios.post('https://rent-car-server-quys-projects-51f128ab.vercel.app/booking', {key: "get Booking Data"})
       .then(res => {
         console.log("data", res.data)
         setBookingData(res.data);
