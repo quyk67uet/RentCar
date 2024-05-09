@@ -19,6 +19,10 @@ const db = mysql.createConnection({
     database: '6466'
 })
 
+app.get('/', (req, res) => {
+    res.send('Hello world');
+})
+
 app.post('/signup', (req, res) => {
     const sql = 'INSERT INTO `user` (`user_name`, `user_email`, `pass_word`, `access`, `full_name`, `citizenID`, `phone_number`, `address`, `date_of_birth`) VALUES (?)';
     const values = [
