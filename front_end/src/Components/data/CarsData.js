@@ -6,7 +6,7 @@ import { useEffect } from "react";
 function CarsData() {
   const { carData, setCarData } = useContext(CarDataContext);
   const fetchData = () => {
-    axios.post('https://rent-car-server-quys-projects-51f128ab.vercel.app/dashboard', {key: "get Car Data"})
+    axios.post('http://localhost:8082/dashboard', {key: "get Car Data"})
       .then(res => {
         setCarData(res.data);
       })
