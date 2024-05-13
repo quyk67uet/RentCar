@@ -8,19 +8,12 @@ const { check, validationResult } = require('express-validator');
 
 const app = express();
 app.use(cors());
-app.use(cors({
-    origin: 'https://rent-car-pink.vercel.app/'
-}))
 app.use(express.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
     database: '6466'
-})
-
-app.get('/', (req, res) => {
-    res.send('Hello world');
 })
 
 app.post('/signup', (req, res) => {
